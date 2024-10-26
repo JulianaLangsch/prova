@@ -1,0 +1,184 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #9D8080;
+    color: #2B2A14;
+    height: 10vh;
+    width: 96vw;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 13vw;
+}
+
+nav {
+    display: flex;
+    gap: 2vw; /* Espaçamento entre os itens do menu */
+}
+
+.opcoesMenu {
+    text-decoration: none;
+    font-size: 1vw;
+    padding: 2vw;
+    color: #403A28;
+}
+
+.slackline {
+    width: 99vw;
+}
+
+h1, h4 {
+    margin: 0; 
+}
+
+h1 {
+    font-size: 3vw; 
+    margin-bottom: 4vw;
+}
+
+h4 {
+    font-size: 2vw; 
+    margin-bottom: 4vw;
+
+}
+
+.introducaoContainer { 
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    color: white; 
+}
+
+.saibaMais {
+    background-color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.5vw;
+    color: black;
+
+}
+
+.linhaSeparadora1 {
+    width: 30%; 
+    height: 4px; 
+    background-color: black; 
+    margin: 20px auto; 
+}
+.linhaSeparadora2 {
+    width: 30%; 
+    height: 4px; 
+    background-color: white; 
+    margin: 20px auto; 
+}
+
+.linhaSeparadora3 {
+    width: 30%; 
+    height: 4px; 
+    background-color: #CACD53; 
+    margin: 80px auto; 
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+p {
+    font-size: 1.5vw;
+}
+
+
+.galeria {
+    max-width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr; 
+    grid-template-rows: repeat(2, auto); 
+    gap: 10px; 
+    background-color: #C3C63B; 
+    padding: 20px; 
+}
+
+.itemGaleria {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block; 
+}
+
+.vantagens {
+    background-color: #191C03;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.itemVantagem {
+    color: #C3C63B;
+
+}
+
+.fa-solid {
+    color: #C3C63B;
+    font-size: 3rem;
+    padding: 20px;
+}   
+
+.containerVantagens {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+.vantagem {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter {
+    color:#C3C63B;
+    text-align: center;
+    padding: 50px;
+}
+
+.assine {
+    padding: 50px;
+}
+
+.email {
+    padding: 15px;
+    border-color:#CACD53;
+    width: 35vw;
+}
+
+.cadastrar {
+    padding: 15px;
+    background-color: #CACD53;
+    color: white;
+    font-weight: bold;
+    border:#CACD53;
+}
+
+footer {
+    background-color: #393F06;
+    margin: 0;
+    color: #B5B936;
+    padding: 40px;
+    text-align: center;
+}
+
+.fa-brands {
+font-size:2rem;
+margin-bottom: 20px;
+}
+
